@@ -13,6 +13,16 @@ public class Contato {
         this.tipoContato = tipoContato;
     }
 
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "nome='" + nome + '\'' +
+                ", fone='" + fone + '\'' +
+                ", email='" + email + '\'' +
+                ", tipoContato=" + tipoContato +
+                '}';
+    }
+
     public TipoContato getTipoContato() {
         return tipoContato;
     }
